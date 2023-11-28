@@ -1,0 +1,49 @@
+*{
+    list-style: none;
+}
+
+
+ul{
+    margin: 10px;
+}
+.linkButton{
+    padding: 10px;
+    border-radius: 11px;
+    border-style: none;
+    background-color: #27ae60;
+    cursor: pointer;
+
+}
+.linkButton:hover{
+    background-color: #2ecc71;
+}
+.aboutDetails{
+    display:block;
+    padding: 10px;
+    text-align: center;
+}
+.subDetails{
+    background-color: #ecf0f1;
+    padding: 15px 0 15px 15px;
+    margin: 10px;
+    border-radius: 11px;
+}
+.subDetails p{
+    margin-top:30px;
+}
+
+.ortala{
+    margin:auto;
+    justify-content: center;
+    display: block;
+    text-align: center;
+}
+.imgRes{
+    width: 600px;
+}
+
+@media only screen and (max-width: 768px) {
+    .imgRes{
+    width: 90%;
+}
+}
